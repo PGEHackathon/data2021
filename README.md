@@ -4,7 +4,7 @@
 
 This competition challenges data scientists to show how various data that are collected from a reservoir are used to make predictions in oil productions. Unlike the conventional approach (e.g., characterizing reservoir models, running fluid flow simulations, and quantifying the uncertainty), you'll use machine learning techniques to discover the relations within the available data and quatities of interest.
 
-![image.png](attachment:c9aec0ea-da07-4c02-9976-ee0547b8247f.png)
+![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png)
 
 The reservoir that we investigate in this project is roughly of the size of 10km by 10km by 50m (thickness). The initial oil water contact is at the depth of 3067.4m and the average connate water saturation is about 20.3%. 83 vertical wells were drilled across the reservoir and completed throughout the payzones. The figure above shows a top view of the reservoir as well as the location of a vertical fault that crosses the reservoir. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the rest 10 wells were kept shut-in. At the end of the third year, the pre-drilled 10 wells are planned to be opened, now the question is what would be the cumulative oil productions for these 10 wells in 3 years.      
 
