@@ -1,6 +1,6 @@
 on: push
 jobs:
-  conda:
+  trigger-scoring:
     runs-on: "ubuntu-latest"
     steps:
       - uses: actions/checkout@v2
