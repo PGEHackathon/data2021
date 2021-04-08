@@ -1,8 +1,36 @@
-## Hackathon competition
+# Energy A.I. Hackathon 2021
 
-### Problem description 
+## Hosts: [Prof. Michael Pyrcz](https://twitter.com/GeostatsGuy) and [Prof. John Foster](https://twitter.com/johntfoster)
 
-This competition challenges data scientists to show how various data that are collected from a reservoir are used to make predictions in oil productions. Unlike the conventional approach (e.g., characterizing reservoir models, running fluid flow simulations, and quantifying the uncertainty), you'll use machine learning techniques to discover the relations within the available data and quatities of interest.
+### Architects: [Honggen Jo](https://twitter.com/HonggeunJ) and Mingyuan Yang
+
+### Sponsor: [Prof. Jon Olson](https://twitter.com/ProfJEOlson), and the [Hildebrand Department of Petroleum and Geosystems Engineering](https://twitter.com/UT_PGE)
+
+### Organization and Student Engagement: Gabby Banales and Sara Hernando
+
+___
+
+### Energy A.I. Problem Description 
+
+**Goal**: develop a data analytics and machine learning workflow in Python to predict estimates and uncertainty models for cumulative oil 3 year production for 10 wells. 
+
+#### Background
+
+We challenge the Energy A.I. hackathon teams of The University of Texas at Austin, engineering and science Students to build a data-driven model to predict oil production. This will require:
+
+* data analysis and evaluation of multiple data sources and a variety of features
+* integration of domain expertise
+* training and tuning robust machine learning prediction models
+* integration and modeling of uncertainty  
+
+This data-driven approach will replace the conventional engineering and geoscience approach:
+
+* characterizing and modeling the subsurface
+* physics-based fluid flow simulations
+ 
+#### The Dataset Summary
+
+
 
 ![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png)
 
