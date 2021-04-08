@@ -27,14 +27,24 @@ This data-driven approach will replace the conventional engineering and geoscien
 
 * characterizing and modeling the subsurface
 * physics-based fluid flow simulations
+
+___
  
-#### The Dataset Summary
+#### The Reservoir Unit
 
+The data is from a reservoir unit with the following specifications: 
 
+* **Depositional Setting**: clastic deepwater reservoir unit with extents 10km by 10km by 50m (thickness)
+* **Fluids**: initial oil water contact is at the depth of 3067.4m and the average connate water saturation is about 20.3%
+* **Structure**: Anticline structure with a major vertical fault that crosses the reservoir. 
 
 ![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png)
 
-The reservoir that we investigate in this project is roughly of the size of 10km by 10km by 50m (thickness). The initial oil water contact is at the depth of 3067.4m and the average connate water saturation is about 20.3%. 83 vertical wells were drilled across the reservoir and completed throughout the payzones. The figure above shows a top view of the reservoir as well as the location of a vertical fault that crosses the reservoir. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the rest 10 wells were kept shut-in. At the end of the third year, the pre-drilled 10 wells are planned to be opened, now the question is what would be the cumulative oil productions for these 10 wells in 3 years.      
+* Wells*: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 wells are planned to be produced.
+
+What will be the the cumulative oil productions for these 10 wells in 3 years?  
+
+___
 
 ### Available data
 
