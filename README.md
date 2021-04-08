@@ -12,7 +12,7 @@ ___
 
 ### Energy A.I. Problem Description 
 
-**Goal**: develop a data analytics and machine learning workflow in Python to predict estimates and uncertainty models for cumulative oil 3 year production for 10 wells. 
+**Goal**: develop a data analytics and machine learning workflow in Python to predict estimates and uncertainty models for cumulative oil 3 year production for **10 unproduced wells**. 
 
 #### Background
 
@@ -32,7 +32,7 @@ ___
  
 #### The Reservoir Unit
 
-The data is from a reservoir unit with the following specifications: 
+Specifications of the reservoir unit of interest: 
 
 * **Depositional Setting**: clastic deepwater reservoir unit with extents 10km by 10km by 50m (thickness)
 * **Fluids**: initial oil water contact is at the depth of 3067.4m and the average connate water saturation is about 20.3%
@@ -40,18 +40,19 @@ The data is from a reservoir unit with the following specifications:
 
 ![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png)
 
-* Wells*: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 wells are planned to be produced.
+* **Wells**: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 unproduced wells are planned to be openned.
 
-What will be the the cumulative oil productions for these 10 wells in 3 years?  
+* **Question**: What will be the the cumulative oil production for each of these 10 unproduced wells over the next 3 years?  
 
 ___
 
-### Available data
+### Available Data Files Inventory
 
-#### wellbore_data_predrilled_wells.csv, wellbore_data_producer_wells.csv
+You have the following data files.
 
-These two files contains the well log data along the wellbore for all 83 wells. All the well names are encrypted into numbers from 1 to 83 (Well_ID). The wells from 1 to 73 are the old producer wells and the rest (74 to 83) are the pre-drilled wells of interest. The available petrophysical and geo-mechanical properties are listed and their meanings are self-explanatory. Note that the blank entries in the file indicate that the data is missing at that location.
+#### wellbore_data_preproduction_wells.csv, wellbore_data_producer_wells.csv
 
+These two files contain the well log data along the wellbore for all 83 wells. All the well names are encrypted into numbers from 1 to 83 (Well_ID). The wells from 1 to 73 are the old producer wells and the remainder (74 to 83) are the pre-produced wells of interest (that you will predict). The available petrophysical and geo-mechanical properties are listed. Note that the blank entries in the file indicate missing data at those locations.
 
 #### 2d_ai.npy, 2d_top_depth.npy, 2d_sand_propotion.npy, 2d_sandy_shale.npy, 2d_shaly_sand.npy, 2d_shale.npy
 
@@ -61,15 +62,21 @@ Besides the wellbore data, there are other six datasets that are available to us
 
 This file contains the cumulative oil and water productions for the 73 producer wells after 1 year, 2 years and 3 years.
 
+___
+
+The following file are available to assist with developing the products for submission.
+
 #### Solution_template.csv
 
-This is file which is filled with dummy values. Your submitted file should follow the same format of this file, which includes your cumulative oil production predictions and 100 prediction realizations for each pre-drilled well in 3 years. You may use what you have learnt in the short lecture to generate those realizations. 
+A solution templay file filled with dummy values. 
+
+* Your submitted file should follow the same format of this file, which includes your cumulative oil production predictions and 100 prediction realizations for each pre-drilled well in 3 years. You may use what you have learnt in the short lecture to generate those realizations. 
 
 ### Submission files
 
 * Each group should submit one .csv file which contain your predictions for the 10 pre-drilled wells. The submitted file should follow the format of the provided template.
 
-* A compressible folder is required. It needs to contain a working .ipynd file along with all data files in your analysis which can be used to reproduce your solutions. 
+* A compressible folder is required. It needs to contain a working .ipynb file along with all data files in your analysis which can be used to reproduce your solutions. 
 
 
 ```python
