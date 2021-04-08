@@ -36,7 +36,8 @@ Specifications of the reservoir unit of interest:
 
 * **Depositional Setting**: clastic deepwater reservoir unit with extents 10km by 10km by 50m (thickness)
 * **Fluids**: initial oil water contact is at the depth of 3067.4m and the average connate water saturation is about 20.3%
-* **Structure**: Anticline structure with a major vertical fault that crosses the reservoir. 
+* **Structure**: Anticline structure with a major vertical fault that crosses the reservoir (see location and equation on the image below). 
+* **Grids**: the 2D maps conform to the standard Python convention, origin on Top Left (see the image below).
 
 ![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png)
 
@@ -48,20 +49,45 @@ ___
 
 ### Available Data Files Inventory
 
-You have the following data files.
+You have the following data files available.
 
-#### wellbore_data_preproduction_wells.csv, wellbore_data_producer_wells.csv
+#### Well Logs
 
-These two files contain the well log data along the wellbore for all 83 wells. All the well names are encrypted into numbers from 1 to 83 (Well_ID). The wells from 1 to 73 are the old producer wells and the remainder (74 to 83) are the pre-produced wells of interest (that you will predict). The available petrophysical and geo-mechanical properties are listed. Note that the blank entries in the file indicate missing data at those locations.
+These two files contain the well log data along the wellbore for all 83 wells.
 
-#### 2d_ai.npy, 2d_top_depth.npy, 2d_sand_propotion.npy, 2d_sandy_shale.npy, 2d_shaly_sand.npy, 2d_shale.npy
+* **wellbore_data_producer_wells.csv** - well logs for the previous production wells, well indices from 1 to 73
+* **wellbore_data_preproduction_wells.csv** - well logs for the remaining, preproduction wells, well indices from 74 to 83 
 
-Besides the wellbore data, there are other six datasets that are available to us. The data contained in these six files are acoustic impedance (AI), proportion of four rock facies, and top depth of the reservoir. They are collected on a regular grid (200 by 200) across the reservoir and their values indicate the vertically averaged property. The interval of measurements are 50m for both directions. The arrays in the files are provided in the format of y-x, e.g. to select the 5th grid in x and the 10th grid in y, use array[9,4] in Python or array[10,5] in Matlab. In addition, the origin of the 2D data(e.g., array[0,0]) is 25m and 25m along y and x direction in the top view horizontal map.
+Comments: 
 
-#### Production_history.csv
+* all the well names are masked (replaced with simple indices from 1 to 83) and coordinates transformed to the area of interest to conceal the actual reservoir. 
+* available petrophysical and geo-mechanical properties are listed. 
+* blank entries in the file indicate missing data at those locations.
 
-This file contains the cumulative oil and water productions for the 73 producer wells after 1 year, 2 years and 3 years.
+#### Map Data
 
+The following map data are available:
+
+* **2d_ai.npy** - acoustic impedance (AI) inverted from geophysical amplitudes and interpretations
+* **2d_top_depth.npy** - depth of the reservoir unit top mapped from interpreted geophysical data
+* **2d_sand_propotion.npy** - proportion of sand facies over the vertical column, 2D facies proportion map
+* **2d_sandy_shale.npy** - proportion of sandy shale facies over the vertical column, 2D facies proportion map
+* **2d_shaly_sand.npy** - proportion of shaly sand facies over the vertical column, 2D facies proportion map
+* **2d_shale.npy** - proportion of shale facies over the vertical column, 2D facies proportion map
+
+Comments:
+
+* 2D maps are regular grids $200 \times 200$ cells, cell extents are $50m \times 50m, extending over the reservoir 
+* values indicate the vertically averaged property, vertical resolution is the entire reservoir unit
+* the indices follow standard Python convention, original is top left corner, indices are from $0, 1, \ldots, n-1$ and the first index is the row (from the top) and the second index is the column from the left.
+* e.g. to select the 5th grid in x and the 10th grid in y, use array[9,4] in Python or array[10,5] in Matlab. 
+* the origin of the 2D data(e.g., array[0,0]) is the center of the otp left cell, 25m and 25m along y and x direction (refer to the image above)
+
+#### Production History
+
+The following production history is available:
+
+* **Production_history.csv** - the cumulative oil and water productions for the 73 previous production wells after 1 year, 2 years and 3 years.
 ___
 
 The following file are available to assist with developing the products for submission.
