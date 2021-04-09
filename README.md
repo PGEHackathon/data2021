@@ -43,7 +43,7 @@ Specifications of the reservoir unit of interest:
 
 * **Wells**: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 unproduced wells are planned to be openned.
 
-* **Question**: What will be the the cumulative oil production for each of these 10 unproduced wells over the next 3 years?  
+* **Question**: What will be the the cumulative oil production for each of these 10 unproduced (preproduction) wells over the next 3 years?  
 
 ___
 
