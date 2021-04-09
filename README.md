@@ -90,21 +90,12 @@ The following production history is available:
 * **Production_history.csv** - the cumulative oil and water productions for the 73 previous production wells after 1 year, 2 years and 3 years.
 ___
 
-The following file are available to assist with developing the products for submission.
+### Required Hackathon Submissions
 
-#### Solution_template.csv
+By April 18th at noon each team must submit:
 
-A solution templay file filled with dummy values. 
+* **Solution Table** - a .csv file with your predictions for the 10 preproduction wells, estimates and uncertainty model realizations. The submitted file should follow the format of the provided template [Hackathon_SolutionTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_SolutionTemplate.csv)for automatic scoring.
 
-* Your submitted file should follow the same format of this file, which includes your cumulative oil production predictions and 100 prediction realizations for each pre-drilled well in 3 years. You may use what you have learnt in the short lecture to generate those realizations. 
+* **Python Workflow and Associated Files** - a compressed folder with the workflow as a Jupyter Notebook .ipynb file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code readibility.
 
-### Submission files
-
-* Each group should submit one .csv file which contain your predictions for the 10 pre-drilled wells. The submitted file should follow the format of the provided template.
-
-* A compressible folder is required. It needs to contain a working .ipynb file along with all data files in your analysis which can be used to reproduce your solutions. 
-
-
-```python
-
-```
+* **Presentation** - a PowerPoint slide deck .PPTX file for your team's final presentation to our judges. The submitted presentation should follow the format of the provided example presentation [Hackathon_PresentationTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_PresentationTemplate.pptx).
