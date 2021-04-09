@@ -79,9 +79,9 @@ Comments:
 
 * 2D maps are regular grids 200 by 200 cells, cell extents are 50m by 50m, extending over the reservoir 
 * values indicate the vertically averaged property, vertical resolution is the entire reservoir unit
-* the indices follow standard Python convention, original is top left corner, indices are from $0, 1, \ldots, n-1$ and the first index is the row (from the top) and the second index is the column from the left.
-* e.g. to select the 5th grid in x and the 10th grid in y, use array[9,4] in Python or array[10,5] in Matlab. 
-* the origin of the 2D data(e.g., array[0,0]) is the center of the otp left cell, 25m and 25m along y and x direction (refer to the image above)
+* the indices follow standard Python convention, original is top left corner, indices are from 0, 1, ..., n-1 and the first index is the row (from the top) and the second index is the column from the left.
+* e.g. to select the 5th grid cell in x (column) and the 10th grid cell in y (rows), use ndarray[9,4] in Python (aside, array[10,5] in Matlab). 
+* the origin of the 2D data (e.g., array[0,0]) is the center of the top left cell, 25m and 25m along y and x direction (refer to the image above)
 
 #### Production History
 
