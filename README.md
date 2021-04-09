@@ -39,7 +39,7 @@ Specifications of the reservoir unit of interest:
 * **Structure**: Anticline structure with a major vertical fault that crosses the reservoir (see location and equation on the image below). 
 * **Grids**: the 2D maps conform to the standard Python convention, origin on Top Left (see the image below).
 
-![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png){ width=50% }
+![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png){ width=10% }
 
 * **Wells**: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 unproduced wells are planned to be openned.
 
