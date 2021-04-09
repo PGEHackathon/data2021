@@ -39,7 +39,7 @@ Specifications of the reservoir unit of interest:
 * **Structure**: Anticline structure with a major vertical fault that crosses the reservoir (see location and equation on the image below). 
 * **Grids**: the 2D maps conform to the standard Python convention, origin on Top Left (see the image below).
 
-![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png)
+![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png width="200" height="200")
 
 * **Wells**: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 unproduced wells are planned to be openned.
 
@@ -94,7 +94,7 @@ ___
 
 By April 18th at noon each team must submit:
 
-* **Solution Table** - a .csv file with your predictions for the 10 preproduction wells, estimates and uncertainty model realizations. The submitted file should follow the format of the provided template [Hackathon_SolutionTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_SolutionTemplate.csv)for automatic scoring.
+* **Solution Table** - a .csv file with your predictions for the 10 preproduction wells, estimates and uncertainty model realizations. The submitted file should follow the format of the provided template [Hackathon_SolutionTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_SolutionTemplate.csv) for automatic scoring.
 
 * **Python Workflow and Associated Files** - a compressed folder with the workflow as a Jupyter Notebook .ipynb file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code readibility.
 
