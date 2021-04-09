@@ -94,12 +94,12 @@ ___
 
 By April 18th at noon each team must submit:
 
-* **Solution Table** - a .csv file with your predictions for the 10 preproduction wells, estimates and uncertainty model realizations. The submitted file should follow the format of the provided template [Hackathon_SolutionTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_SolutionTemplate.csv) for automatic scoring.
+* **Solution Table** - a .csv file with your predictions for the 10 preproduction wells, estimates and uncertainty model realizations. The submitted file should follow the format of the provided template [solution.csv](https://github.com/PGEHackathon/data/blob/main/solution.csv) for automatic scoring.
 
-    * the file must be named 'solution.csv' and placed in this repository (data respository) and then commit for the automated scoring.
+    * the file must be named 'solution.csv' and placed in this repository (data respository) and then apply a commit for the automated scoring.
 
 * **Python Workflow and Associated Files** - a compressed folder with the workflow as a Jupyter Notebook .ipynb file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code readibility.
 
 * **Presentation** - a PowerPoint slide deck .PPTX file for your team's final presentation to our judges. The submitted presentation should follow the format of the provided example presentation [Hackathon_PresentationTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_PresentationTemplate.pptx).
 
-All the submission templates are in the [resources respository](https://github.com/PGEHackathon/resources).
+The Workflow and Presentation submission templates are in the [resources respository](https://github.com/PGEHackathon/resources) and the results submission template is in this repository. 
