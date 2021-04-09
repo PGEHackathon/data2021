@@ -41,7 +41,7 @@ Specifications of the reservoir unit of interest:
 
 ![Test Image 8](https://github.com/PGEHackathon/data/blob/main/image.png)
 
-<img src="https://github.com/PGEHackathon/data/blob/main/image.png" width="200" height="200">
+<img src="https://github.com/PGEHackathon/data/blob/main/image.png" width="400" height="400">
 
 * **Wells**: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field managements, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 unproduced wells are planned to be openned.
 
