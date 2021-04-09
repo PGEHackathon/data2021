@@ -77,7 +77,7 @@ The following map data are available:
 
 Comments:
 
-* 2D maps are regular grids $200 \times 200$ cells, cell extents are $50m \mult 50m, extending over the reservoir 
+* 2D maps are regular grids $200 \times 200$ cells, cell extents are $50m \times 50m$, extending over the reservoir 
 * values indicate the vertically averaged property, vertical resolution is the entire reservoir unit
 * the indices follow standard Python convention, original is top left corner, indices are from $0, 1, \ldots, n-1$ and the first index is the row (from the top) and the second index is the column from the left.
 * e.g. to select the 5th grid in x and the 10th grid in y, use array[9,4] in Python or array[10,5] in Matlab. 
